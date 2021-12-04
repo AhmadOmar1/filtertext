@@ -1,0 +1,61 @@
+body {
+    background-color: azure;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+#textstyle1 , #textstyle2
+{
+    width: 300px;
+    resize: none;
+    height: 100px;
+    margin: auto;
+}
+#alldivs 
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    
+}
+#togther 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#btn
+{
+   width: 100px;
+   height: 40PX;
+   margin-bottom: 100px;
+   
+}
+#textarea1 ,#textarea2 
+{
+resize:none;
+width: 600px;
+height: 500px;
+}
+#textarea1 {
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+ background-color: rgba(144, 92, 92, 0.616);
+
+}
+#textarea2 {
+background-color :rgba(144, 92, 92, 0.616);
+display: flex;
+flex-direction: column;                 
+}
+
+#textarea3 {
+    background-color :rgba(190, 190, 190, 0.568);
+    width: 800px;
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    margin-top: 60px;
+    }
